@@ -5,20 +5,20 @@
 //c..The root of the element etc......
 
 
-// function mapOperations(arr,arrOperations){
-//     let operations = arr.map(arrOperations);
+function mapOperations(arr,arrOperations){
+    let operations = arr.map(arrOperations);
        
-//     return operations;
-// }
-// console.log(mapOperations([1,2,3,4,5],
-//     num => num * 2
-//     ))
-//     console.log(mapOperations([1,2,3,4,5],
-//         num => num / 5
-//         ))
-//         console.log(mapOperations([1,2,3,4,5],
-//             num => Math.sqrt(num)
-//             ))
+    return operations;
+}
+console.log(mapOperations([1,2,3,4,5],
+    num => num * 2
+    ))
+    console.log(mapOperations([1,2,3,4,5],
+        num => num / 5
+        ))
+        console.log(mapOperations([1,2,3,4,5],
+            num => Math.sqrt(num)
+            ))
 
 
 //................................................................................
