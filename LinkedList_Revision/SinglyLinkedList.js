@@ -169,3 +169,5 @@ ll.removeIndex(2)
 
 ll.print();
 console.log(`The length of Linked List is : ${ll.length}`);
+
+//..................................................................................
